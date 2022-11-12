@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    background-color: #90caf9;
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    z-index: 1000;
+}
+
+.inicio {
+    display: flex;
+    height: 100%;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    margin-left: 1%;
+}
+
+.lista1 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    z-index: 50;
+    height: 100%;
+    padding: 0;
+    width: 40%;
+}
+
+.lista1__l1{
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    font-size: 23px;
+}
+
+.lista1__l1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    top: 30%;
+    text-decoration: none;
+    color: orangered;
+}
+
+.lista1__l1 a:visited {
+    color: orangered;
+    text-decoration: none;
+}
+
+.lista1__l1:hover{
+    transition: 1s;
+    background-color: #ff5722;
+}
+
+.lista1__l1:hover a{
+    transition: 0.5s;
+    color: white;
+}
+
+
+
+
+
+.service-menu {
+    height: 7vh;
+    background-color: #ff5722;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.divider {
+    width: 0.2%;
+    height: 50%;
+    margin: 6px 0;
+    background:white;
+}
+
+.menu-s {
+    margin: 2%;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+}
+
+.menu-s:visited {
+    color: white;
+}
+
+
+
+
+
+.sanidad {
+    position: relative;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.titulo {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+}
+
+.titulo-div {
+    position: absolute;
+    width: 75%;
+    height: 25vh;
+    content: '';
+    background: #1a237e;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    transform-origin: center;
+    transform: skewX(-50deg);
+}
+
+.titulo h2 {
+    position: relative;
+    top: 25%;
+    font-size: 400%;
+    color: white;
+    text-align: center;
+    text-decoration: underline solid white;
+}
+
+.salud {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.salud-desc {
+    position: relative;
+    width: 40vw;
+    height: 50vh;
+    margin: 3%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black;
+    overflow: hidden;
+}
+
+.salud-desc:hover .img-muestra {
+    z-index: 10;
+}
+
+.img-muestra {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    z-index: 100;
+}
+
+.desc {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 101, 30, 0.61);
+    text-align: center;
+    font-size: 200%;
+    text-decoration: underline solid white;
+    z-index: 50;
+}
+
+.desc h2 {
+    position: relative;
+    margin: auto;
+}
+
+.muestra {
+    min-width: 40vw;
+}
+
+.estetica {
+    position: relative;
+}
+
+.belleza {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.belleza-desc {
+    position: relative;
+    width: 40vw;
+    height: 50vh;
+    margin: 3%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black;
+    overflow: hidden;
+}
+
+.belleza-desc:hover .img-muestra {
+    z-index: 10;
+}
+
+
+
+
+
+
+.pie {
+    padding: 1%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #ff5722;
+    z-index: 900;
+}
+
+.pie_subtitulo {
+    position: relative;
+    left: 0;
+    font-size: 25px;
+    color: white;
+}
+
+.lista2 {
+    display: flex;
+    color: white;
+}
+
+.lista2_l2 {
+    margin-right: 15%;
+}
+
+.lista2_l2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.lista2_l2 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.lista2_l2 a:hover {
+    color: white;
+    text-decoration: underline solid white;
+}
+
+.copyright {
+    width: 20%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}

@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    z-index: 1000;
+}
+
+.inicio {
+    display: flex;
+    height: 100%;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    margin-left: 1%;
+}
+
+.lista1 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    z-index: 50;
+    height: 100%;
+    padding: 0;
+    width: 40%;
+}
+
+.lista1__l1{
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    font-size: 23px;
+}
+
+.lista1__l1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    top: 30%;
+    text-decoration: none;
+    color: orangered;
+}
+
+.lista1__l1 a:visited {
+    color: orangered;
+    text-decoration: none;
+}
+
+.lista1__l1:hover{
+    transition: 1s;
+    background-color: #ff5722;
+}
+
+.lista1__l1:hover a{
+    transition: 0.5s;
+    color: white;
+}
+
+
+
+
+
+.cover {
+    height: 90vh;
+    position: relative;
+    background-image: url(sonrisa.jpg);
+    background-size: cover;
+}
+
+.cover_titulo {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    padding-top: 1%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cover_titulo h1 {
+    font-size: 600%;
+    display: inline;
+    color: white;
+}
+
+.cover_titulo h2 {
+    font-size: 225%;
+    color: white;
+    margin-bottom: 1.5%;
+}
+
+
+
+
+
+.doctora {
+    margin-top: 2%;
+    height: 90vh;
+    display: flex;
+}
+
+.doctora_imagen img {
+    width: 45vw;
+    height: 100%;
+    box-sizing: border-box;
+    border: 10px solid #ff5722;
+    object-fit: cover;
+}
+
+.doctora_info {
+    width: 55vw;
+    height: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    position: relative;
+    background-color:#90caf9;
+}
+
+.info {
+    color: white;
+    margin: 2%;
+    font-size: 155%;
+}
+
+.cita {
+    color: #ff5722;
+    font-size: 155%;
+    font-style: italic;
+    margin: 2%;
+}
+
+
+
+
+
+.covid-19 {
+    margin-top: 2%;
+    padding: 5%;
+    background-color: #0d47a1;
+}
+
+.covid-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.covid-titulo {
+    color: white;
+    font-size: 350%;
+    text-align: center;
+    text-decoration: underline solid #ff5722;
+}
+
+.covid-imagen {
+    width: 15%;
+    margin: 5%;
+}
+
+.covid-subtitulo {
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+
+.covid-subtitulo a {
+    color: white;
+    text-decoration: underline solid #ff5722;
+}
+
+.covid-subtitulo a :visited{
+    color: white;
+}
+
+.covid-protocolo {
+    margin-top: 2%;
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    text-decoration: underline solid orangered;
+}
+
+
+
+
+
+.pie {
+    padding: 1%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #ff5722;
+    z-index: 900;
+}
+
+.pie_subtitulo {
+    position: relative;
+    left: 0;
+    font-size: 25px;
+    color: white;
+}
+
+.lista2 {
+    display: flex;
+    color: white;
+}
+
+.lista2_l2 {
+    margin-right: 15%;
+}
+
+.lista2_l2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.lista2_l2 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.lista2_l2 a:hover {
+    color: white;
+    text-decoration: underline solid white;
+}
+
+.copyright {
+    width: 20%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}

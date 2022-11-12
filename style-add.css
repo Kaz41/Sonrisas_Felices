@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    
+}
+
+
+.inicio {
+    background-color: white;
+}
+
+.lista1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.lista1__l1{
+    border-radius: 5px;
+    margin: 0.5%;
+    height: 10vh;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    font-size: 23px;
+}
+
+.lista1__l1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    top: 30%;
+    text-decoration: none;
+    color: orangered;
+}
+
+a:visited {
+    color: orangered;
+    text-decoration: none;
+}
+
+.lista1__l1:hover{
+    transition: 1s;
+    background-color: orangered;
+    text-decoration: underline;
+}
+
+.lista1__l1:hover a{
+    transition: 0.5s;
+    color: white;
+}
+
+
+
+
+.registro {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: hsl(172, 100%, 91%);
+}
+
+.formulario {
+    width: 65vw;
+    height: 85vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black; 
+    border-radius: 25px;
+    z-index: 100;
+}
+
+
+.columna {
+    padding-top:4%;
+    padding-bottom:2%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.fecha{
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+
+.horario{
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+
+
+.formulario h3 {
+    margin: 2%;
+    font-size: 160%;
+    text-align: center;
+    color: orangered;
+}
+
+.formulario h5 {
+    margin: 1%;
+    font-size: 100%;
+    text-align: center;
+    color: orangered;
+}
+
+.formulario a {
+    text-decoration: none;
+}
+
+.inputs {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inputs input{
+    height: 4vh;
+    width: 90%;
+    margin: 3%;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}
+
+.inputs input[type="file"]{
+    padding-top:4%;
+    height: 4vh;
+    width: 90%;
+    margin: 3%;
+    border: 0px solid white;
+    border-radius: 5px;
+}
+
+.inputs input[type="number"] {
+    width: 40%;
+}
+
+.inputs div {
+    margin-left: 5%;
+    margin-right:5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputs textarea {
+    width:90%;
+    height: 40vh;
+    resize: none;
+}
+
+select {
+    border: solid orangered;
+    border-radius: 5px;
+    width: 90%;
+    margin-bottom: 2%;
+    padding: 0.5%;
+    background-color: white;
+}
+
+select option {
+    color: orangered;
+}
+
+.boton{
+    width: fit-content;
+    height: fit-content;
+    font-size: 15px;
+    margin-top: 3%;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
